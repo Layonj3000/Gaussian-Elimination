@@ -22,7 +22,7 @@ def main():
         try:
             X = gaussian_elimination(A, B)
             for i, xi in enumerate(X, start=1):
-                print(f"x[{i}] = {xi:.12g}")
+                print(f"x[{i}] = {xi:.2f}")
         except Exception as e:
             print(f"Erro ao resolver sistema #{idx}: {e}")
 
