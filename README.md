@@ -38,3 +38,13 @@ x[1] = -1.00
 x[2] = 4.00
 x[3] = 5.00
 ```
+
+## 👨‍💻 Autores 
+<div>
+  <table style="margin: 0 auto;">
+    <tr>
+      <td><a href="https://github.com/DavidPotentini"><img loading="lazy" src="https://avatars.githubusercontent.com/u/106561154?v=4" width="115"><br><sub>David Potentini</sub></a></td>
+      <td><a href="https://github.com/Layonj300"><img loading="lazy" src="https://avatars.githubusercontent.com/u/106559843?v=4" width="115"><br><sub>Layon Reis</sub></a></td>
+    </tr>
+  </table>
+</div>
