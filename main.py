@@ -2,6 +2,7 @@ import sys
 from pathlib import Path
 from parser_sistemas import parse_systems_from_file
 from gauss_solver import gaussian_elimination
+from fractions import Fraction
 
 def main():
     if len(sys.argv) < 2:
@@ -23,6 +24,10 @@ def main():
             X = gaussian_elimination(A, B)
             for i, xi in enumerate(X, start=1):
                 print(f"x[{i}] = {xi:.2f}")
+
+            print("\n--- Forma fracionada ---")
+            for i, xi in enumerate(X, start=1):
+                print(f"x[{i}] = {Fraction(f'{xi:.2f}').limit_denominator()}")
         except Exception as e:
             print(f"Erro ao resolver sistema #{idx}: {e}")
 
