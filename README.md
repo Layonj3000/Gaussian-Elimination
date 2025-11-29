@@ -19,24 +19,34 @@ Este repositório contém uma implementação do método de Eliminação Gaussia
 
 ## 💡 Exemplo
 ```bash
-python main.py ./sistemas/sistema3x3.dat
+python main.py ./sistemas/sistema4x4.dat
 ```
 
-Arquivo sistema3x3.dat:
+Arquivo sistema4x4.dat:
 ```
-3
-5.0 2.0 1.0
-2.0 -1.0 3.0
-0.0 1.0 -2.0
-8.0 9.0 -6.0
+4
+5.0 2.0 0.0 -1.0
+1.0 8.0 -3.0 2.0
+0.0 1.0 6.0 1.0
+1.0 -1.0 2.0 9.0
+6.0 10.0 -5.0 0.0
 ```
 
 Resultado:
 ```
---- Sistema #1 (N=3) ---
-x[1] = -1.00
-x[2] = 4.00
-x[3] = 5.00
+--- Sistema #1 (N=4) ---
+
+--- Forma decimal ---
+x[1] = 0.95
+x[2] = 0.71
+x[3] = -0.98
+x[4] = 0.19
+
+--- Forma fracionada ---
+x[1] = 19/20
+x[2] = 71/100
+x[3] = -49/50
+x[4] = 19/100
 ```
 
 ## 👨‍💻 Autores 
