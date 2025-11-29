@@ -22,6 +22,8 @@ def main():
 
         try:
             X = gaussian_elimination(A, B)
+
+            print("\n--- Forma decimal ---")
             for i, xi in enumerate(X, start=1):
                 print(f"x[{i}] = {xi:.2f}")
 
